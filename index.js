@@ -188,6 +188,7 @@ He made him the shepherd over Jacob, his people,p
 And over Israel, his inheritance.q
 72  He shepherded them with integrity of heart,r
 And with skillful hands he led them.s`;
+
 function parseChapter(chapter) {
   const re = /[0-9]+[ ]+/;
   let arr = chapter.split(re);
@@ -198,9 +199,10 @@ function parseChapter(chapter) {
     v = v.replace(/[.][a-z][ ]+/g, ". ");
     v = v.replace(/[;][a-z]/g, ";");
     v = v.replace(/[;]/g, "; ");
-
-    v = v.replace(/[.][a-z]/g, ". ");
-    v = v.replace(/[,][a-z]/g, ", ");
+    v = v.replace(/[.][a-z]/g, ".");
+    v = v.replace(/[,][a-z]/g, ",");
+    v = v.replace(/[.][ ]*/g, ". ");
+    v = v.replace(/[,][ ]*/g, ", ");
     v = v.replace(/.”[a-z][ ]*/g, ".”");
 
     return v.trim();
