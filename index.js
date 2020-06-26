@@ -1,3 +1,4 @@
+// Test Chapters
 const genesis2 = `2  Thus the heavens and the earth and everything in them* were completed.a 2  And by the seventh day, God had completed the work that he had been doing,* and he began to rest on the seventh day from all his work that he had been doing.*b 3  And God went on to bless the seventh day and to declare it sacred, for on it God has been resting from all the work that he has created, all that he purposed to make.
 4  This is a history of the heavens and the earth in the time they were created, in the day that Jehovah* God made earth and heaven.c
 5  No bush of the field was yet on the earth and no vegetation of the field had begun sprouting, because Jehovah God had not made it rain on the earth and there was no man to cultivate the ground. 6  But a mist would go up from the earth, and it watered the entire surface of the ground.
